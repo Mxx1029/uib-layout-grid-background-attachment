@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-auto-rows: 150px;
+    gap: 0.4rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+}
+
+.item * {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 1.17rem;
+    background-color: rgba(0, 0 , 0, 0.6);
+    padding: 2%;
+}
+
+.bg1 {
+    background-image: url(./assets/annie-spratt-9V8n0P7qWSU-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg2 {
+    background-image: url(./assets/caleb-rankin-tGUZpfDvB1s-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
